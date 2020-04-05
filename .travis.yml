@@ -13,6 +13,7 @@ script:
 deploy: 
   provider: elasticbeanstalk
   region: "us-west-2"
+  edge: true
   app: "project"
   env: "Project-env"
   bucket_name: "elasticbeanstalk-us-west-2-458718470893"
